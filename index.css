@@ -1,0 +1,287 @@
+
+
+*{
+  margin : 0px;
+  padding : 0px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.pages{
+  height : 100vh;
+  width : 100vw;
+}
+.section{
+  background-color : whitesmoke;
+}
+.box{
+  background-color: white;
+}
+.form-field{
+  border: none;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.my-skills{
+  color : #1E88E5;
+}
+.nav-bar a{
+  color : #1E88E5;
+}
+
+
+
+
+
+
+
+.nav-bar{
+  
+  display : flex;
+  height : 10vh;
+  position: fixed;
+  border-bottom: 2px solid black;
+}
+
+#hed-logo{
+  color : #1E88E5;
+  width : 40vw;
+  display : flex;
+  align-items : center;
+}
+#hed-logo h2{
+  padding-left : 5vw;
+}
+.content-box{
+  display : flex;
+  width : 60vw;
+  
+  justify-content : space-evenly;
+  align-items : center;
+}
+.content{
+  text-decoration: none;
+}
+.mode{
+  height: 10vh;
+  width: 5vw;
+  /*background-color: whitesmoke;
+  border-radius: 60%;
+  border: 2px solid black;
+  */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home{
+  height : 100vh;
+  width : 100vw;
+  display : flex;
+  justify-content : space-between;
+  background-image: url("landing_page.jpg");
+  background-size: cover;
+}
+.intro-img{
+  height : 90vh;
+  width : 70vw;
+  border : 3px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  
+  background-image: url("intro.png");
+  background-size: cover;
+}
+.intro-text{
+  height : 90vh;
+  width : 70vw;
+  border : 3px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+.intro-text span{
+  
+  color : red;
+}
+
+
+
+
+
+#about,#contact{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile-pic,.contact{
+  height:75vh;
+  width: 25vw;
+  border-radius: 5px;
+  
+}
+.details,.form{
+  height:68vh;
+  width: 56vw;
+  border-radius: 5px;
+  
+  padding:4vh 2vw;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  
+}
+.about h2{
+  padding-bottom: 1vh;
+}
+.more-details{
+  display: grid;
+  align-content: row;
+}
+.detail-header{
+  width: 55vw;
+  
+  display: flex;
+}
+.detail-header h4{
+  padding-right: 5vw;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+}
+.detail-text{
+  width: 55vw;
+  
+}
+
+
+
+
+
+
+#projects,#achievements,#learning{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects,.achievement,.learning{
+  height: 75vh;
+  width: 90vw;
+  
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-detils,.achievement-detils{
+  height: 67vh;
+  width: 40vw;
+  
+  padding:4vh 2vw;
+}
+.project-detils h2{
+  padding-bottom: 1vh;
+}
+.project-pictures,.achievement-pictures{
+  height: 75vh;
+  width: 50vw;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture{
+  height: 65vh;
+  width: 40vw;
+  background-color: rgba(0,0,255,0.5);
+  border-radius: 5px;
+}
+img{
+  height: 65vh;
+  width: 40vw;
+  background-color: rgba(0,0,255,0.5);
+  border-radius: 5px;
+}
+.profile-pic img{
+  height:75vh;
+  width: 25vw;
+  border-radius: 5px;
+  background-size: cover;
+}
+
+
+
+
+.learning{
+  width: 86vw;
+  padding:4vh 2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  padding:4vh 2vw;
+  justify-content: space-evenly;
+  align-items: center;
+  height:68vh;
+  width: 21vw;
+}
+.social-link{
+  font-size: 6vh;
+}
+.cv{
+  background-color: #1E88E5;
+  height: 12vh;
+  width: 14vw;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cv a{
+  text-decoration: none;
+  color: black;
+}
+.personsl h2{
+  padding-bottom: 1vh;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.visitor{
+  height: 10vh;
+  width: 55vw;
+  margin-top: 3vh;
+}
+.message{
+  height: 35vh;
+  width: 55vw;
+  margin-top: 3vh;
+}
+.submit{
+  background-color: #1E88E5;
+  height: 12vh;
+  width: 14vw;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 100%;
+  margin-top: 4vh;
+  border: none;
+}
